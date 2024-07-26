@@ -8,7 +8,7 @@
 
 body{ 
     min-height: 100vhs;
-   background: url(wall/115892605_980170895745032_6804280367245524700_n.jpg) center/cover ;
+   background: url(wall/317233241_1928802184178712_231406573449590405_n.jpg) center/cover ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body{
 
 main.table{
 width: 82vw;
-height: 98vh;
+height: 90vh;
 background-color: rgba(159, 140, 140, 0.603);
 backdrop-filter: blur(7px);
 box-shadow: 0 .5rem .8rem #0005;
@@ -29,9 +29,9 @@ overflow: hidden;
 
 .table_header{
     width: 100%;
-    height: 5%;
+    height: 10%;
     background-color: rgba(204, 215, 215, 0.375);
-    padding: .9rem 0.1rem;
+    padding: .9rem 1rem;
     text-align: center;
     
 
@@ -78,7 +78,7 @@ visibility: visible;
 
 
 table{
-    width: 100%;
+    width: 110%;
  
 
 }
@@ -101,7 +101,7 @@ td img {
 table , th, td{
     
     border-collapse: collapse;
-    padding: 2rem;
+    padding: .3rem;
     text-align: left;
 
 
@@ -131,7 +131,7 @@ tbody tr:hover{
 
 
 
-@media(max-width:1000px)
+@media(max-width:250px)
 {
     td:not(:first-of-type)
     {
