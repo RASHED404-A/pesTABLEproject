@@ -9,19 +9,19 @@
 
 body{ 
     min-height: 100vh;
-   background: url(https://i.pinimg.com/564x/fb/98/8c/fb988cf8bfd3e133e2ad9608cb634bb5.jpg) center/cover ;
+   background: url(https://i.pinimg.com/originals/f8/89/17/f88917505face7f33046971a44e666c9.jpg) center/cover ;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+  
 
 }
 
 main.table{
-width: 82vw;
+width: 95vw;
 height: 90vh;
 background-color: rgba(159, 140, 140, 0.603);
-backdrop-filter: blur(7px);
+backdrop-filter: blur(8px);
 box-shadow: 0 .5rem .8rem #0005;
 border-radius: .8rem;
 
@@ -32,7 +32,7 @@ overflow: hidden;
 .table_header{
     width: 100%;
     height: 10%;
-    background-color: rgba(204, 215, 215, 0.375);
+    background-color: rgba(153, 176, 176, 0.375);
     padding: .9rem 1rem;
     text-align: center;
     
@@ -104,7 +104,7 @@ table , th, td{
     
     border-collapse: collapse;
     padding: .3rem;
-    text-align: left;
+    text-align: center;
 
 
 }
@@ -131,12 +131,15 @@ tbody tr:hover{
 }
 
 .pic p{
-    width: 70px;
+    width: 110px;
   text-wrap: nowrap;
 overflow: hidden;
 
-}
 
+}
+P{
+    text-align: left;
+}
 
 .pic {
     
