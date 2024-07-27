@@ -18,7 +18,7 @@ body{
 }
 
 main.table{
-width: 82vw;
+width: 120vw;
 height: 89vh;
 background-color: rgba(207, 172, 172, 0.501);
 backdrop-filter: blur(8px);
@@ -103,7 +103,7 @@ td img {
 table , th, td{
     
     border-collapse: collapse;
-    padding: 1rem;
+    padding: .4rem;
     text-align: center;
 
 
@@ -139,7 +139,7 @@ overflow: hidden;
 
 }
 P{
-    text-align:center;
+    text-align:left;
 }
 
 .pic {
@@ -156,7 +156,7 @@ P{
 {
     td:not(:first-of-type)
     {
-        min-width: 12.1rem;
+        min-width: 15.1rem;
     }
 }
 
